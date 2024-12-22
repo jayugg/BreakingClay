@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "file": "BreakingClay.json",
+  "patches": {
+  },
+  "settings": [
+    {
+      "code": "MoldSelector",
+      "ingui": "breakingclay:setting-moldselector",
+      "type": "string",
+      "weight": 1.0,
+      "comment": "Regex selector for tool and ingot molds that break",
+      "default": "@.*(toolmold|ingotmold).*"
+    },
+    {
+      "code": "BowlBreakChance",
+      "ingui": "breakingclay:setting-bowlbreakchance",
+      "weight": 0.9,
+      "comment": "Chance for a bowl to break after eating",
+      "default": 0.05,
+      "range": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    {
+      "code": "CrucibleBreakChance",
+      "ingui": "breakingclay:setting-cruciblebreakchance",
+      "weight": 0.8,
+      "comment": "Chance for a crucible break after pouring metal",
+      "default": 0.1,
+      "range": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    {
+      "code": "MoldBreakChance",
+      "ingui": "breakingclay:setting-moldbreakchance",
+      "weight": 0.7,
+      "comment": "Chance for a mold to break after use",
+      "default": 0.2,
+      "range": {
+        "min": 0,
+        "max": 1
+      }
+    }
+  ],
+  "formatting": [
+  ]
+}

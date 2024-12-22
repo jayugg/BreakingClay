@@ -1,0 +1,11 @@
+{
+    "mold-broke": "Your mold has broken!",
+    "bowl-broke": "Your bowl has broken!",
+    "crucible-broke": "Your crucible has broken!",
+    
+    "setting-moldbreakchance": "Mold Break Chance",
+    "setting-bowlbreakchance": "Bowl Break Chance",
+    "setting-cruciblebreakchance": "Crucible Break Chance",
+    
+    "setting-moldselector": "Mold Regex Selector"
+}

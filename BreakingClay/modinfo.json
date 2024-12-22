@@ -1,0 +1,14 @@
+{
+    "type": "code",
+    "modid": "breakingclay",
+    "name": "BreakingClay",
+    "authors": [
+        "Nateonus",
+        "jayugg"
+    ],
+    "description": "Breakable molds from survival expanded",
+    "version": "1.0.0",
+    "dependencies": {
+        "game": ""
+    }
+}
